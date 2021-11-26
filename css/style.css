@@ -106,6 +106,7 @@ a {
 #controls {
 	flex-basis: 400px;
 	flex-grow: 1;
+	flex-direction: row;
 	justify-content: center;
 }
 
@@ -130,4 +131,14 @@ a {
 .control-item i {
 	font-size: 2rem;
 	margin-bottom: 5px;
+}
+
+.controller ul {
+	list-style-type: none;
+	display: flex;
+}
+
+.controller li {
+	display: inline;
+	
 }
