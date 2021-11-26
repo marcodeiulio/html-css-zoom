@@ -1,0 +1,78 @@
+/* generics */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato';
+	font-size: .9rem;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.container {
+	width: 100%;
+	max-height: 100vh;
+}
+
+/* utilities */
+
+.btn {
+	background-color: #4a4a4a;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+/* view options */
+
+.view-options {
+	min-height: 70px;
+	width: 100%;
+	background-color: #000;
+	padding: 10px 10px;
+	text-align: right;
+}
+
+/* participants */
+
+.participants {
+	height: 100vh;
+	width: 100%;
+	background-color: #aaa;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.user {
+	flex-basis: 200px;
+	aspect-ratio: 1.586;
+	background-color: red;
+	position: relative;
+}
+
+.user-name {
+	background-color: #70707098;
+	padding: 3px 3px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.user-name::before {
+    font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: '\f131  ';
+}
+
+/* controller */
+
+.controller {
+	min-height: 150px;
+	width: 100%;
+	background-color: #555;
+}
