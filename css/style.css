@@ -65,9 +65,13 @@ a {
 	aspect-ratio: 1.586;
 	position: relative;
 	margin: 3px;
+	transform: scale(1);
+	transition: transofrm .5s;
+}
 
-	/*** da rimuovere ***/
-	background-color: red;
+.user:hover {
+	transform: scale(1.1);
+	transition: transform .5s;
 }
 
 .user-image {
@@ -137,3 +141,8 @@ a {
 	list-style-type: none;
 	display: flex;
 }
+
+#controls a:hover {
+	color: green;
+}
+
