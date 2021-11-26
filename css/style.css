@@ -44,7 +44,14 @@ a {
 	background-color: #000;
 	padding: 10px 10px;
 	text-align: right;
+}
 
+.view-options a {
+	margin-left: 5px;
+}
+
+.view-options a:hover {
+	filter: brightness(1.2);
 }
 
 /* participants */
