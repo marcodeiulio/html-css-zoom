@@ -62,9 +62,9 @@ a {
 
 .user {
 	flex-basis: 200px;
-	aspect-ratio: 1.586;
+	aspect-ratio: 8 / 5;
 	position: relative;
-	margin: 3px;
+	margin: 10px 3px;
 	scale: 1;
 	transition: scale 1s;
 }
@@ -76,7 +76,7 @@ a {
 
 .user-image {
 	max-width: 200px;
-	aspect-ratio: 14 / 9;
+	aspect-ratio: 8 / 5;
 	overflow: hidden;
 }
 
@@ -142,7 +142,7 @@ a {
 	display: flex;
 }
 
-#controls li:hover {
+#controls a:hover{
 	color: green;
 }
 
