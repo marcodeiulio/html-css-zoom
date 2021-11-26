@@ -117,10 +117,6 @@ a {
 	padding-right: 15px;
 }
 
-.leave {
-
-}
-
 .control-item {
 	margin: 10px 10px;
 	display: flex;
@@ -131,4 +127,8 @@ a {
 .control-item i {
 	font-size: 2rem;
 	margin-bottom: 5px;
+}
+
+.controller .control-item:hover {
+	color: green;
 }
