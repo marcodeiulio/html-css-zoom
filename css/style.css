@@ -107,6 +107,10 @@ a {
 	display: flex;
 }
 
+#mic-cam {
+	flex-basis: 300px;
+}
+
 #controls {
 	flex-basis: 400px;
 	flex-grow: 1;
@@ -114,19 +118,15 @@ a {
 	justify-content: center;
 }
 
-#mic-cam {
-	flex-basis: 300px;
-}
-
-#leave {
-	flex-basis: 300px;
-	align-items: center;
-	justify-content: flex-end;
-	padding-right: 15px;
+#controls a:hover span,
+#controls a:hover i,
+#mic-cam a:hover span,
+#mic-cam a:hover i {
+	color: #4bc800;
 }
 
 .control-item {
-	margin: 10px 10px;
+	margin: 10px 15px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -142,7 +142,14 @@ a {
 	display: flex;
 }
 
-#controls a:hover{
-	color: green;
+#leave {
+	flex-basis: 300px;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 15px;
+}
+
+#leave a:hover {
+	filter: brightness(1.2);
 }
 
