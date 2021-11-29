@@ -58,7 +58,7 @@ a {
 
 .participants {
 	width: 100%;
-	overflow: scroll;
+	overflow: auto;
 	background-color: #aaa;
 	display: flex;
 	flex-direction: row;
